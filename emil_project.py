@@ -6,7 +6,7 @@ def choose_word():
 def display_word(word,guessed_letters):
     display = ""
     for letters in word:
-        if letter guessed_letters:
+        if (letter guessed_letters):
       
        else:
           display+= "_"
@@ -21,10 +21,10 @@ def hangman ():
 print("welcome to hangman")
 print(display_word(word_to_guess, guessed_letters))
 guess = input ("guess a letter").lower()
-if guess.isalpha() and len () guess == 1: 
+if guess.isalpha() and len () (guess) == 1: 
       elif guess in guessed_letters:
-   guessed_letters.append (guess)
-    print ("good guess!")
+      (guessed_letters.append (guess)
+      print ("good guess!")
 else:
    print ("incorrect guess, attempts remaining:"), max_attempts - attempts 
 
