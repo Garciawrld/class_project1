@@ -8,9 +8,10 @@ def display_word(word,guessed_letters):
     for letters in word:
         if (letter guessed_letters):
       
-       else:
-          display+= "_"
-    return display
+      else:
+         display+= "_"
+         return display
+
 def hangman ():
    max_attempts = 6 
    guessed_letters = {}
